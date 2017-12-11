@@ -190,3 +190,7 @@ a:hover {
     black 25%,
     url("img/collage.jpg");
 }
+
+a {
+  outline: 0;
+}
