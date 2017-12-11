@@ -39,8 +39,8 @@ body {
 }
 
 label.trigger {
-  color: black;
-  padding: 1em;
+  text-transform: none;
+    padding: 1em;
   font-size: 3em;
 }
 
@@ -48,11 +48,15 @@ label.trigger {
 label:hover {
   text-shadow: 0 0 20px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
   color: white;
+  padding: 1em;
 }
 
 a {
+  padding: 1em;
+  font-size: 3em;
   text-decoration: none;
-  color: inherit;
+  color: black;
+
 }
 
 a:hover {
@@ -156,6 +160,7 @@ a:hover {
 	margin-top: 10px;
 	overflow: auto;
 }
+
 
 .popup__calign{
 	float: right;
